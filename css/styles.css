@@ -18,19 +18,19 @@ footer {
   height: 252px;
 }
 .our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
   width: 1600px;
   height: 648px;
 }
-.container {
-  display: flex;
-}
+
 .main-container {
   display: flex;
 }
 .our-work {
-  width: 1600px;
-  height: 648px;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 /* Контейнер */
 .container {
@@ -40,6 +40,11 @@ footer {
   margin-top: 0px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.list-tasks {
+  margin-bottom: 94px;
+  margin-top: 94px;
 }
 /* Цвет текста*/
 p {
@@ -78,6 +83,7 @@ a {
   color: #2196f3;
 }
 .adress-footerone {
+  display: inline-block;
   color: #ffffff;
   font-weight: normal;
   font-size: 14px;
@@ -140,6 +146,7 @@ a {
   color: #ffffff;
   background-color: #2196f3;
 }
+
 /* Логотип */
 .logoheder {
   color: #000000;
@@ -152,6 +159,9 @@ a {
   color: #2196f3;
 }
 .logofooter {
+  padding-top: 60px;
+  padding-bottom: 20px;
+
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -179,18 +189,25 @@ a.font-style {
   letter-spacing: 0.06em;
 }
 .font-text-three {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
 .paragraph {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
 }
 .font-text-two {
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -219,4 +236,6 @@ a.font-style {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.footer-list {
 }
