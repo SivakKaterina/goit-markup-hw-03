@@ -1,0 +1,199 @@
+/* Подключение шрифтов*/
+body {
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  height: 1880px;
+  background: #ffffff;
+}
+/* Фон и размеры блоков  */
+.first-section {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.our-team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+}
+.container {
+  display: flex;
+}
+.main-container {
+  display: flex;
+}
+.our-work {
+  width: 1600px;
+  height: 648px;
+}
+/* Цвет текста*/
+p {
+  color: #757575;
+  font-weight: 400;
+}
+h1,
+h2,
+h3 {
+  color: #212121;
+}
+a {
+  text-decoration: none;
+}
+/* Цвета и функционал ссылок*/
+.excretion {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.excretion:hover,
+.excretion:focus {
+  color: #2196f3;
+}
+.adress-excretion {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.adress-excretion:hover,
+.adress-excretion:focus {
+  color: #2196f3;
+}
+.adress-footerone {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.adress-footerone:hover,
+.adress-footerone:focus {
+  color: #2196f3;
+}
+.adress-footer {
+  color: rgb(255, 255, 255, 60%);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.adress-footer:hover,
+.adress-footer:focus {
+  color: #2196f3;
+}
+/*Кнопка*/
+.buttom {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.buttom:hover,
+.buttom:focus {
+  color: #2196f3;
+  background-color: #ffffff;
+}
+
+.buttomportfolio {
+  color: #212121;
+  background-color: #e5e5e5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.buttomportfolio:hover,
+.buttomportfolio:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* Логотип */
+.logoheder {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.weblogo {
+  color: #2196f3;
+}
+.logofooter {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style-type: none;
+}
+.addressfont {
+  font-style: normal;
+}
+a.font-style {
+  font-family: "Roboto", sans-serif;
+}
+/* текст */
+.font-text-one {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.font-text-three {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+.font-text-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.font-text-three-comand {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.paragraph-comand {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.list-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.78;
+  letter-spacing: 0.06em;
+}
+.list-portfolio-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
