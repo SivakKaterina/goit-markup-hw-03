@@ -107,6 +107,12 @@ a {
 }
 
 .buttomportfolio {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  text-align: center;
+
   color: #212121;
   background-color: #e5e5e5;
   font-weight: 500;
