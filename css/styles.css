@@ -31,6 +31,15 @@ footer {
   width: 1600px;
   height: 648px;
 }
+/* Контейнер */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* Цвет текста*/
 p {
   color: #757575;
@@ -92,7 +101,12 @@ a {
 /*Кнопка*/
 .buttom {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 32px;
+  text-align: center;
+  min-width: 136px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   color: #ffffff;
   background-color: #2196f3;
   font-weight: bold;
