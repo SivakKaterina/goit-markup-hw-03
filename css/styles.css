@@ -41,18 +41,24 @@ footer {
   padding-right: 15px;
 }
 /* Список */
-.list-nav  {
-  
-  display: flex;
- 
-}
-}
+
 .list-tasks {
   margin-bottom: 94px;
   margin-top: 94px;
 }
 ul {
   list-style-type: none;
+}
+.list-nav {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+.list-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+.list-nav.item:last-child {
+  margin-right: 0px;
 }
 /* Цвет текста*/
 p {
