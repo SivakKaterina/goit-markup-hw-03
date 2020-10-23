@@ -14,10 +14,10 @@
 
 <body>
      <header >
-          <div class="container">
+          <div class="container ">
                <nav>
                     <a class="logoheder" href="./index.html"> <span class="weblogo">Web</span>Studio</a>
-                    <ul>
+                    <ul class="list-nav">
                          <li>
                               <a class="excretion font-style" href="">Студия</a>
                          </li>
@@ -39,8 +39,10 @@
      </header>
      <main>
           <section class="first-section">
-               <h1 class="font-text-one">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГОБИЗНЕСА</h1>
-               <a href="" class="buttom font-style">Заказать услугу</a>
+               <div class="container">
+                    <h1 class="font-text-one">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГОБИЗНЕСА</h1>
+                    <a href="" class="buttom font-style">Заказать услугу</a>
+               </div>
           </section>
           <section>
                <div class="container">
@@ -76,23 +78,20 @@
                               </li>
                          </ul>
                     </div>
-               </div>
-               <div class="container">
                     <div class="our-work">
                          <h2 class="font-text-two">Чем мы занимаемся</h2>
                          <ul class="main-container">
-                              <li><img src="./img/img.png" alt="" width="370" /></li>
-                              <li><img src="./img/img2.png" alt="" width="370" /></li>
-                              <li><img src="./img/img3.png" alt="" width="370" /></li>
+                              <li><img src="./img/img.png" alt="" width="370" ></li>
+                              <li><img src="./img/img2.png" alt="" width="370" ></li>
+                              <li><img src="./img/img3.png" alt="" width="370" ></li>
                          </ul>
                     </div>
                </div>
-               
           </section>
           <section class="our-team">
               <div class="container">
                     <h2 class="font-text-two">Наша команда</h2>
-                    <ul class="main-container ">
+                    <ul class="main-container">
                          <li>
                               <img src="./img/photo1.jpg" alt="" width="270" />
                               <h3 class="font-text-three-comand">Игорь Демьяненко</h3>
@@ -119,16 +118,18 @@
      </main>
      <footer >
           <div class="container"> 
-               <a class="logofooter" href="/"> <span class="weblogo">Web</span>Studio</a>
-          </div> 
-          <div class="container">
-               <address class="addressfont">
-                    <ul class="footer-list">
-                         <li class="adress-footerone">г. Киев, пр-т Леси Украинки, 26</li>
-                         <li><a href="tel:+380961111111" class="adress-footer font-style">+380961111111</a></li>
-                         <li><a href="mailto:info@devstudio.com" class="adress-footer font-style">info@devstudio.com</a></li>
-                    </ul>
-               </address>
+               <div>
+                    <a class="logofooter" href="./index.html"> <span class="weblogo">Web</span>Studio</a>
+               </div>
+               <div >
+                    <address class="first-section">
+                         <ul class="footer-list">
+                              <li class="adress-footerone">г. Киев, пр-т Леси Украинки,   26</li>
+                              <li><a href="tel:+380961111111" class="adress-footer   font-style">+380961111111</a></li>
+                              <li><a href="mailto:info@devstudio.com"      class="adress-footer font-style">info@devstudio.com</a></li>
+                     </ul>
+                    </address>
+             </div>
           </div>
      </footer>
 </body>
