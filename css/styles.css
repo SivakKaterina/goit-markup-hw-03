@@ -1,11 +1,12 @@
 /* Подключение шрифтов*/
 body {
   font-family: "Roboto", sans-serif;
-  width: 1600px;
-  height: 1880px;
-  background: #ffffff;
 }
 /* Блоки */
+.first-section {
+  background-color: #2f303a;
+  height: 600px;
+}
 
 .our-team {
   padding-top: 94px;
@@ -29,7 +30,6 @@ footer {
 }
 .first-section {
   background-color: #2f303a;
-  height: 600px;
 }
 /* Контейнер */
 .container {
@@ -121,7 +121,8 @@ a {
 }
 /*Кнопка*/
 .buttom {
-  display: inline-block;
+  display: block;
+  margin: auto;
   padding: 10px 32px;
   min-width: 136px;
   border-radius: 4px;
