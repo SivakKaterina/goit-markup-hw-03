@@ -5,12 +5,11 @@ body {
 /* Блоки */
 .first-section {
   background-color: #2f303a;
+  padding-bottom: 200px;
 }
 
 .our-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: #f5f4fa;
+  margin-top: 0px;
 }
 footer {
   background-color: #2f303a;
@@ -23,6 +22,11 @@ footer {
   margin-top: 0px;
   margin-bottom: 50px;
 }
+.list-tasks {
+  margin-bottom: 94px;
+  margin-top: 94px;
+  padding-left: 0px;
+}
 /* Контейнер */
 .container {
   width: 1200px;
@@ -34,10 +38,6 @@ footer {
 }
 /* Список */
 
-.list-tasks {
-  margin-bottom: 94px;
-  margin-top: 94px;
-}
 ul {
   list-style-type: none;
 }
@@ -221,6 +221,9 @@ a.font-style {
   letter-spacing: 0.03em;
 }
 .font-text-two {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -254,4 +257,7 @@ a.font-style {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.address {
+  font-style: normal;
 }
