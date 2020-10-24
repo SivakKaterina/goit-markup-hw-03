@@ -39,15 +39,29 @@ footer {
   padding-left: 15px;
   padding-right: 15px;
 }
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.container-main-nav {
+  display: flex;
+}
+.container-list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
 /* Список */
 
 ul {
   list-style-type: none;
 }
 .list-nav {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 93px;
   display: flex;
   padding: 0px;
-  margin: 0px;
 }
 .list-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -57,7 +71,10 @@ ul {
 .address-header {
   display: flex;
   margin-top: 0px;
+  margin-right: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -67,6 +84,17 @@ ul {
 .main-container .buttom-container:not(:last-child) {
   margin-right: 8px;
 }
+.list-container {
+  display: inline-block;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.list {
+  width: 270px;
+}
+
 /* Цвет текста*/
 p {
   color: #757575;
@@ -244,6 +272,7 @@ a.font-style {
   line-height: 2;
   letter-spacing: 0.03em;
 }
+
 .font-text-two {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -277,6 +306,7 @@ a.font-style {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .list-portfolio {
   margin-top: 0px;
   margin-bottom: 0px;
