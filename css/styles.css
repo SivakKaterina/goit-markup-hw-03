@@ -52,8 +52,20 @@ ul {
 .list-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.list-nav.item:last-child {
-  margin-right: 0px;
+/* .list-nav.item:last-child {
+  margin-right: 0px; */
+.address-header {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.address-header .item-address:not(:last-child) {
+  margin-right: 50px;
+}
+.main-container .buttom-container:not(:last-child) {
+  margin-right: 8px;
 }
 /* Цвет текста*/
 p {
@@ -85,6 +97,8 @@ a {
   color: #2196f3;
 }
 .adress-excretion {
+  display: block;
+
   color: #757575;
   font-weight: 500;
   font-size: 14px;
@@ -95,6 +109,7 @@ a {
 .adress-excretion:focus {
   color: #2196f3;
 }
+
 .adress-footerone {
   display: inline-block;
   color: #ffffff;
@@ -141,7 +156,7 @@ a {
 }
 
 .buttomportfolio {
-  display: inline-block;
+  display: block;
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
@@ -263,12 +278,22 @@ a.font-style {
   letter-spacing: 0.03em;
 }
 .list-portfolio {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 1.78;
   letter-spacing: 0.06em;
 }
 .list-portfolio-paragraph {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
