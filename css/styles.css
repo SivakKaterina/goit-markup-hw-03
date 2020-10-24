@@ -10,6 +10,7 @@ body {
 
 .our-team {
   margin-top: 0px;
+  margin-bottom: 94px;
 }
 footer {
   background-color: #2f303a;
@@ -17,6 +18,8 @@ footer {
 
 .main-container {
   display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .our-work {
   margin-top: 0px;
@@ -223,7 +226,7 @@ a.font-style {
 .font-text-two {
   margin-top: 0px;
   margin-bottom: 0px;
-
+  padding-bottom: 50px;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -231,6 +234,10 @@ a.font-style {
   letter-spacing: 0.03em;
 }
 .font-text-three-comand {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 30px;
   text-align: center;
 
   font-weight: 500;
@@ -239,6 +246,9 @@ a.font-style {
   letter-spacing: 0.03em;
 }
 .paragraph-comand {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
   text-align: center;
 
   font-weight: 400;
