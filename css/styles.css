@@ -20,6 +20,8 @@ footer {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 .our-work {
   margin-top: 0px;
@@ -30,6 +32,7 @@ footer {
   margin-top: 94px;
   padding-left: 0px;
 }
+
 /* Контейнер */
 .container {
   width: 1200px;
@@ -49,7 +52,20 @@ footer {
 .container-list-portfolio {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 90px;
+  margin: 0px;
 }
+.flex-list {
+  width: 370px;
+  margin-right: 30px;
+}
+.flex-list:nth-child(3n) {
+  margin-right: 0px;
+}
+
 /* Список */
 
 ul {
@@ -87,12 +103,26 @@ ul {
 .list-container {
   display: inline-block;
   display: flex;
+  justify-content: space-between;
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
+  padding: 0px;
 }
 .list {
   width: 270px;
+}
+.img {
+  width: 370px;
+}
+.img:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team-list {
+  width: 270px;
+}
+.our-team-list:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Цвет текста*/
