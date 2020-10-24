@@ -70,6 +70,10 @@ a {
 }
 /* Цвета и функционал ссылок*/
 .excretion {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: #212121;
   font-weight: 500;
   font-size: 14px;
