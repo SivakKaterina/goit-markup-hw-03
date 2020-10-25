@@ -17,6 +17,8 @@ body {
 }
 footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .main-container {
@@ -252,7 +254,6 @@ a {
 }
 .logofooter {
   display: inline-block;
-  padding-top: 60px;
   padding-bottom: 20px;
 
   color: #ffffff;
@@ -369,5 +370,4 @@ a.font-style {
   font-style: normal;
 
   padding-top: 0px;
-  padding-bottom: 60px;
 }
