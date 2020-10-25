@@ -38,6 +38,11 @@ footer {
   padding-top: 94px;
   padding-left: 0px;
 }
+.border {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #ececec;
+}
 
 /* Контейнер */
 .container {
