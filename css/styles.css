@@ -22,12 +22,13 @@ footer {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 50px;
+  padding: 0px;
   justify-content: center;
 }
 .our-work {
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 90px;
 }
 .list-tasks {
   padding-bottom: 94px;
