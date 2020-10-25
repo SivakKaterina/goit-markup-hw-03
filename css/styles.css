@@ -5,6 +5,7 @@ body {
 /* Блоки */
 .first-section {
   background-color: #2f303a;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
@@ -273,16 +274,19 @@ a.font-style {
 }
 /* текст */
 .font-text-one {
+  width: 696px;
   margin-top: 0px;
-  margin-bottom: 30px;
-  text-align: center;
-  padding-top: 200px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
   padding-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  color: #ffffff;
 }
 .font-text-three {
   margin-top: 0px;
