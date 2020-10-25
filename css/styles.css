@@ -11,8 +11,9 @@ body {
 }
 
 .our-team {
-  margin-top: 0px;
-  margin-bottom: 94px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 94px;
 }
 footer {
   background-color: #2f303a;
